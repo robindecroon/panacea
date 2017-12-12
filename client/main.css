@@ -1,37 +1,3 @@
-/* CSS declarations go here
-body {
-    font-family: sans-serif;
-    background-color: #004d40;
-    background-attachment: fixed;
-   
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-   
-    padding: 0;
-    margin: 0;
-   
-    font-size: 24px;
-  }
-
-  p {
-      color: white;
-  }
-
-  .panacea-text {
-    margin: auto;
-    width: 80%;
-    padding: 10px;  
-}
-
-.time-element {
-    width: 33%;
-    float: left;
-    color: white;    
-} */
-
 body {
     text-align: center;
     background: #004d40;
