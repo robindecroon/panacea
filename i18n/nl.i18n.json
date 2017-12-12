@@ -5,5 +5,15 @@
     "hour": "uur",
     "minute": "minuut",
     "second": "seconde",
-    "header_time_left": "Nog beperkte tijd om al je metingen door te geven!"
+    "header_time_left": "Nog beperkte tijd om al je metingen door te geven!",
+    
+    "week": "week",
+
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag",
+    "sunday": "Zondag"
 }

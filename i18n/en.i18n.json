@@ -5,5 +5,15 @@
     "hour": "hour",
     "minute": "minute",
     "second": "second",
-    "header_time_left": "Limited time to register today's measurements!"
+    "header_time_left": "Limited time to register today's measurements!",
+    
+    "week": "week",
+    
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
 }

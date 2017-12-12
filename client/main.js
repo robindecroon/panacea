@@ -4,8 +4,10 @@ import { Meteor } from 'meteor/meteor';
 import { render } from 'react-dom';
  
 import TimeLeft from '../imports/ui/TimeLeft.js';
+import WeekOverview from '../imports/ui/WeekOverview.js';
+
  
 Meteor.startup(() => {
   i18n.setLocale('en')  
-  render(<TimeLeft />, document.getElementById('render-target'));
+  render(<WeekOverview />, document.getElementById('render-target'));
 });

@@ -12,6 +12,12 @@ h1 {
     margin: 40px 0px 20px;
 }
 
+.panacea-text {
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
 #clockdiv {
     font-family: sans-serif;
     color: #fff;
@@ -46,4 +52,50 @@ h1 {
     text-align: center;
     padding-top: 15px;
     font-size: 30px;
+}
+
+.day-block {
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    line-height: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.week-5 {
+    background: #00BFA5;
+}
+
+.week-4 {
+    background: #318579;
+}
+
+.week-3 {
+    background: #3c7b73;
+}
+
+.week-2 {
+    background: #346a63;
+}
+
+.week-1 {
+    background: #234843;
+}
+
+.week-0 {
+    background: #122623;
+}
+
+.week-no {
+    background: #C4C4C4;
+}
+
+.week-label {
+    display: inline-block;
+    width: 80px;
 }

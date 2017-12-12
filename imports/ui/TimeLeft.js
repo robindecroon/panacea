@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import i18n from 'meteor/universe:i18n';
 import moment from 'moment';
-import countdown from 'moment-countdown';
 
 const T = i18n.createComponent();
 
