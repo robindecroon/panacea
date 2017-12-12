@@ -1,0 +1,75 @@
+/* CSS declarations go here
+body {
+    font-family: sans-serif;
+    background-color: #004d40;
+    background-attachment: fixed;
+   
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    padding: 0;
+    margin: 0;
+   
+    font-size: 24px;
+  }
+
+  p {
+      color: white;
+  }
+
+  .panacea-text {
+    margin: auto;
+    width: 80%;
+    padding: 10px;  
+}
+
+.time-element {
+    width: 33%;
+    float: left;
+    color: white;    
+} */
+
+body {
+    text-align: center;
+    background: #00ECB9;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
