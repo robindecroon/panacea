@@ -2,5 +2,8 @@
     "hours": "uren",
     "minutes": "minuten",
     "seconds": "seconden",
+    "hour": "uur",
+    "minute": "minuut",
+    "second": "seconde",
     "header_time_left": "Nog beperkte tijd om al je metingen door te geven!"
 }

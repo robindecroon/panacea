@@ -2,5 +2,8 @@
     "hours": "hours",
     "minutes": "minutes",
     "seconds": "seconds",
+    "hour": "hour",
+    "minute": "minute",
+    "second": "second",
     "header_time_left": "Limited time left to register your measurements for today!"
 }
