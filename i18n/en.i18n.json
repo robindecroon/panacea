@@ -15,5 +15,8 @@
     "thursday": "Thursday",
     "friday": "Friday",
     "saturday": "Saturday",
-    "sunday": "Sunday"
+    "sunday": "Sunday",
+
+    "nb_measures_to_perform": "Measures to perform",
+    "avoid_lose_daystreak": "Avoid losing your day streak"
 }
