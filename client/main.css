@@ -34,13 +34,13 @@ body {
 
 body {
     text-align: center;
-    background: #00ECB9;
+    background: #004d40;
     font-family: sans-serif;
     font-weight: 100;
 }
 
 h1 {
-    color: #396;
+    color: white;
     font-weight: 100;
     font-size: 40px;
     margin: 40px 0px 20px;
@@ -57,15 +57,16 @@ h1 {
 
 #clockdiv>div {
     padding: 10px;
+    margin: 10px;
     border-radius: 3px;
-    background: #00BF96;
+    background: #00BFA5;
     display: inline-block;
 }
 
 #clockdiv div>span {
     padding: 15px;
     border-radius: 3px;
-    background: #00816A;
+    background: #1F6F60;
     display: inline-block;
 }
 
