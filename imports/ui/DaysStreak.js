@@ -14,6 +14,7 @@ export default class DaysStreak extends Component {
     }
 
     render() {
+        // TODO circle + text vertical in div
         // TODO: change to actual nbDays (this.props.dayStreak * 100), pct /100
         return (
             <div className="panacea-text">

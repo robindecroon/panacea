@@ -24,3 +24,5 @@ anti:i18n
 tap:i18n
 universe:i18n
 anonyfox:scrape
+http
+peerlibrary:xml2js

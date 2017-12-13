@@ -15,5 +15,8 @@
     "thursday": "Donderdag",
     "friday": "Vrijdag",
     "saturday": "Zaterdag",
-    "sunday": "Zondag"
+    "sunday": "Zondag",
+
+    "loading_content": "De inhoud is aan het laden...",
+    "be_patient": "Gelieve even geduld te hebben."
 }
