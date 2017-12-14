@@ -16,7 +16,12 @@
     "friday": "Vrijdag",
     "saturday": "Zaterdag",
     "sunday": "Zondag",
-
+    
+    "nb_measures_to_perform": "Aantal metingen voor vandaag",
+    "avoid_lose_daystreak": "Vermijd dat je je dagbonus verliest",
+    
     "loading_content": "De inhoud is aan het laden...",
-    "be_patient": "Gelieve even geduld te hebben."
+    "be_patient": "Gelieve even geduld te hebben.",
+    
+    "positive_feedback": "Je bent heel goed bezig!"
 }

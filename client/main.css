@@ -66,11 +66,12 @@ h4 {
     height: 30px;
     margin: 10px;
     display: inline-block;
-    padding: 10px;
+    padding: 0px;
     line-height: 30px;
 }
 
 ul {
+    padding-left: 0px;
     list-style: none;
 }
 
@@ -119,7 +120,7 @@ ul {
  * All of the styles in this file are optional and configurable!
  */
 
- .CircularProgressbar {
+.CircularProgressbar {
     /*
      * This fixes an issue where the CircularProgressbar svg has
      * 0 width inside a "display: flex" container, and thus not visible.
@@ -128,38 +129,38 @@ ul {
      */
     width: 40%;
     padding: 25px;
-  }
-  
-  .CircularProgressbar .CircularProgressbar-path {
+}
+
+.CircularProgressbar .CircularProgressbar-path {
     stroke: #A7FFEB;
     stroke-linecap: round;
     transition: stroke-dashoffset 0.5s ease 0s;
-  }
+}
 
-  .CircularProgressbar-streak .CircularProgressbar-path {
+.CircularProgressbar-streak .CircularProgressbar-path {
     stroke: #00BFA5;
-  }
-  
-  .CircularProgressbar .CircularProgressbar-trail {
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
     stroke: #d6d6d6;
-  }
-  
-  .CircularProgressbar .CircularProgressbar-text {
+}
+
+.CircularProgressbar .CircularProgressbar-text {
     fill: #A7FFEB;
     font-size: 20px;
     dominant-baseline: middle;
     text-anchor: middle;
-  }
+}
 
-  .CircularProgressbar-streak .CircularProgressbar-text {
+.CircularProgressbar-streak .CircularProgressbar-text {
     fill: #00BFA5;
-  }
-  
-  .CircularProgressbar .CircularProgressbar-background {
+}
+
+.CircularProgressbar .CircularProgressbar-background {
     fill: #d6d6d6;
-  }
-  
-  /*
+}
+
+/*
    * Sample background styles. Use these with e.g.:
    *
    *   <CircularProgressbar
@@ -168,36 +169,65 @@ ul {
    *     percentage={50}
    *   />
    */
-  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
     fill: #3e98c7;
-  }
-  
-  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
     fill: #fff;
-  }
-  
-  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
     stroke: #fff;
-  }
-  
-  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
     stroke: transparent;
-  }
-  
-  .full-width {
-      width: 100%;
-  }
+}
 
-  .half-element {
-      width: 50%;
-      display: inline-block;      
-  }
+.full-width {
+    width: 100%;
+    position: relative;
+}
 
-  .panacea-news {
-      color: white;
-      text-align: left;
-  }
+.half-element {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+}
 
-  .panacea-news > p > a {
+.panacea-news {
+    color: white;
+    text-align: left;
+}
+
+.panacea-news>p>a {
     color: #00BFA5;
+}
+
+.panacea-image {
+    height: 150px;
+}
+
+.panacea-image-text {
+    font-size: 30px;
+    width: 100%;        
+    height: 150px;    
+    display: table;
+}
+
+.md66 {
+    width: 66%;
+    display: inline-block;
+}
+
+.md33 {
+    width: 33%;
+    display: inline-block;
+}
+
+.child {
+    display: table-cell;
+    vertical-align: middle;
 }
