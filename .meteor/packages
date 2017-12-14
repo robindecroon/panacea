@@ -26,3 +26,4 @@ universe:i18n
 anonyfox:scrape
 http
 peerlibrary:xml2js
+kadira:flow-router

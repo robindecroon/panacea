@@ -15,8 +15,10 @@ export default class LevelMain extends Component {
         const level1Image = "/images/level1.png";
         const level2Image = "/images/level2.png";
         const level3Image = "/images/level3.png";
+        const level4Image = "/images/level4.png";
         
-        const levelImages = [level1Image, level2Image, level3Image];
+        
+        const levelImages = [level1Image, level2Image, level3Image, level4Image];
 
         // TODO: hack. Locale not update in init phase. Use i18n-key
         this.state = {
