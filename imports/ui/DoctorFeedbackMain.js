@@ -7,8 +7,6 @@ const T = i18n.createComponent();
 export default class DoctorFeedbackMain extends Component {
     constructor(props) {
         super(props);
-
-        console.log(i18n.getLocale());
         
         // TODO: hack. Locale not update in init phase. Use i18n-key
         this.state = {
@@ -22,8 +20,7 @@ export default class DoctorFeedbackMain extends Component {
             <div className="panacea-text">
                 <div className="md66">
                     <div className="panacea-image-text" >
-                        <div className="child"><T>{this.state.feedback}</T></div>
-                        
+                        <div><T>{this.state.feedback}</T></div>
                     </div>
                 </div>
                 <div className="md33">
