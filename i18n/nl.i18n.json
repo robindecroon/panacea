@@ -23,5 +23,9 @@
     "loading_content": "De inhoud is aan het laden...",
     "be_patient": "Gelieve even geduld te hebben.",
     
-    "positive_feedback": "Je bent heel goed bezig!"
+    "positive_feedback": "Je bent heel goed bezig!",
+
+    "train_bepett": "Voer je metingen in om je BePett te trainen!",
+
+    "level": "Level"    
 }

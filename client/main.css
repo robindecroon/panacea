@@ -209,3 +209,29 @@ ul {
     width: 33%;
     display: inline-block;
 }
+
+.md80 {
+    width: 80%;
+    display: inline-block;
+}
+
+.md20 {
+    width: 20%;
+    display: inline-block;
+}
+
+.md75 {
+    width: 75%;
+    display: inline-block;
+}
+
+.md25 {
+    width: 25%;
+    display: inline-block;
+}
+
+.rh50 {
+    margin: 10px 0px 10px 0px;
+    height: 50px;
+    display: inline-block;
+}
