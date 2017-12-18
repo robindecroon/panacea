@@ -25,5 +25,7 @@
 
     "positive_feedback": "You are doing a great job!",
 
-    "train_bepett": "Attend your pending measurements to train your BePett!"
+    "train_bepett": "Attend your pending measurements to train your BePett!",
+
+    "level": "Level"
 }
