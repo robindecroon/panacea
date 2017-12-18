@@ -8,14 +8,26 @@ import DoctorFeedbackMain from './DoctorFeedbackMain.js';
 import LevelMain from './LevelMain.js';
 import TabSwitcher from './TabSwitcher.js';
 
-import { Switch, Route } from 'react-router-dom'
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import red from 'material-ui/colors';
+import green from 'material-ui/colors/green';
+
+import { Switch, Route } from 'react-router-dom';
+
+const theme = createMuiTheme({
+    palette: {
+        primary: red[500],
+        secondary: green,
+      },
+  });
 
 // App component - represents the whole app
 export default class App extends Component {
     render() {
         return (
             <div className="container">
-                <header>
+            <MuiThemeProvider theme={theme}>
+            <header>
                 </header>
                 <div>
                     <Switch>
@@ -28,6 +40,7 @@ export default class App extends Component {
                         <Route exact path='/tabs' component={TabSwitcher} />
                     </Switch>
                 </div>
+                </MuiThemeProvider>
             </div>
         );
     }

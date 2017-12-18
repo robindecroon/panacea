@@ -27,5 +27,12 @@
 
     "train_bepett": "Attend your pending measurements to train your BePett!",
 
-    "level": "Level"
+    "level": "Level",
+
+    "timeleft-component": "Time",
+    "weekoverview-component": "Week",
+    "daystreak-component": "Days",
+    "news-component": "News",
+    "doctorfeedback-component": "Feedback",
+    "level-component": "Levels"
 }

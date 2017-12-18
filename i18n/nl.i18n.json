@@ -27,5 +27,12 @@
 
     "train_bepett": "Voer je metingen in om je BePett te trainen!",
 
-    "level": "Level"    
+    "level": "Level",
+    
+    "timeleft-component": "Tijd",
+    "weekoverview-component": "Week",
+    "daystreak-component": "Dagen",
+    "news-component": "Nieuws",
+    "doctorfeedback-component": "Feedback",
+    "level-component": "Levels"
 }
