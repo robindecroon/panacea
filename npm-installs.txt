@@ -1,1 +1,1 @@
-meteor npm install --save rss-parser feedparser
+meteor npm install --save rss-parser feedparser babel-runtime react react-dom react-router-dom moment react-circular-progressbar rss-parser dompurify material-ui
