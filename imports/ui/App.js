@@ -6,6 +6,7 @@ import DaysStreak from './DaysStreak.js';
 import NewsMain from './NewsMain.js';
 import DoctorFeedbackMain from './DoctorFeedbackMain.js';
 import LevelMain from './LevelMain.js';
+import TabSwitcher from './TabSwitcher.js';
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -18,12 +19,13 @@ export default class App extends Component {
                 </header>
                 <div>
                     <Switch>
-                        <Route path='/time' component={TimeLeft} />
-                        <Route path='/week' component={WeekOverview} />
-                        <Route path='/days' component={DaysStreak} />
-                        <Route path='/news' component={NewsMain} />
-                        <Route path='/feedback' component={DoctorFeedbackMain} />
-                        <Route path='/level' component={LevelMain} />
+                        <Route exact path='/time' component={TimeLeft} />
+                        <Route exact path='/week' component={WeekOverview} />
+                        <Route exact path='/days' component={DaysStreak} />
+                        <Route exact path='/news' component={NewsMain} />
+                        <Route exact path='/feedback' component={DoctorFeedbackMain} />
+                        <Route exact path='/level' component={LevelMain} />
+                        <Route exact path='/tabs' component={TabSwitcher} />
                     </Switch>
                 </div>
             </div>
