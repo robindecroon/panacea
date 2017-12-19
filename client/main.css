@@ -42,7 +42,7 @@ h4 {
     border-radius: 10px;
     background: #00BFA5;
     display: inline-block;
-    width: 25%;
+    width: 20%;
     height: 80%
 }
 
@@ -77,31 +77,31 @@ ul {
 }
 
 .week-5 {
-    background: #00BFA5;
+    background: #048a71;
 }
 
 .week-4 {
-    background: #318579;
+    background: #09856e;
 }
 
 .week-3 {
-    background: #3c7b73;
+    background: #1a7463;
 }
 
 .week-2 {
-    background: #346a63;
+    background: #246a5d;
 }
 
 .week-1 {
-    background: #234843;
+    background: #2f5f56;
 }
 
 .week-0 {
-    background: #122623;
+    background: #404e4c ;
 }
 
 .week-no {
-    background: #C4C4C4;
+    background: #454948;
 }
 
 .week-label {

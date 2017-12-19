@@ -20,7 +20,7 @@ import App from '../imports/ui/App.js';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 Meteor.startup(() => {
-  i18n.setLocale('en')
+  i18n.setLocale('nl')
   render((
     <BrowserRouter >
       <App />
