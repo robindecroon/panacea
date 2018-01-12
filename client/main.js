@@ -12,6 +12,7 @@ import DaysStreak from '../imports/ui/DaysStreak.js';
 import NewsMain from '../imports/ui/NewsMain.js';
 import DoctorFeedbackMain from '../imports/ui/DoctorFeedbackMain.js';
 import LevelMain from '../imports/ui/LevelMain.js';
+import RadialOverview from '../imports/ui/RadialOverview.js';
 
 import App from '../imports/ui/App.js';
 
