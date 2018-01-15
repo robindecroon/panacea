@@ -7,6 +7,8 @@ import NewsMain from './NewsMain.js';
 import DoctorFeedbackMain from './DoctorFeedbackMain.js';
 import LevelMain from './LevelMain.js';
 import TabSwitcher from './TabSwitcher.js';
+import RadialOverview from './RadialOverview.js';
+
 
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import red from 'material-ui/colors';
@@ -36,6 +38,7 @@ export default class App extends Component {
                         <Route exact path='/days' component={DaysStreak} />
                         <Route exact path='/news' component={NewsMain} />
                         <Route exact path='/feedback' component={DoctorFeedbackMain} />
+                        <Route exact path='/radial' component={RadialOverview} />
                         <Route exact path='/level' component={LevelMain} />
                         <Route exact path='/tabs' component={TabSwitcher} />
                     </Switch>

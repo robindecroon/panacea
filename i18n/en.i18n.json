@@ -34,5 +34,13 @@
     "daystreak-component": "Days",
     "news-component": "News",
     "doctorfeedback-component": "Feedback",
-    "level-component": "Levels"
+    "level-component": "Levels",
+
+    "radial-component": "Radial",
+
+    "blood_pressure": "Blood Pressure",
+    "weight": "Weight",
+    "spo2": "SpO2",
+    "sleep": "Sleep",
+    "activity": "Activity"
 }

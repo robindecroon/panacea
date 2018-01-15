@@ -8,6 +8,8 @@ import DaysStreak from './DaysStreak.js';
 import NewsMain from './NewsMain.js';
 import DoctorFeedbackMain from './DoctorFeedbackMain.js';
 import LevelMain from './LevelMain.js';
+import RadialOverview from './RadialOverview.js';
+
 
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
@@ -60,6 +62,7 @@ export default class TabSwitcher extends Component {
                         <Tab label={i18n.__("news-component")} />
                         <Tab label={i18n.__("doctorfeedback-component")} />
                         <Tab label={i18n.__("level-component")} />
+                        <Tab label={i18n.__("radial-component")} />
                     </Tabs>
                 </AppBar>
                 {this.state.value === 0 && <TimeLeft />}
@@ -68,6 +71,7 @@ export default class TabSwitcher extends Component {
                 {this.state.value === 3 && <NewsMain />}
                 {this.state.value === 4 && <DoctorFeedbackMain />}
                 {this.state.value === 5 && <LevelMain />}
+                {this.state.value === 6 && <RadialOverview />}
             </div>
         );
     }
