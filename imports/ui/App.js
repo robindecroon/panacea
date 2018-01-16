@@ -9,6 +9,8 @@ import LevelMain from './LevelMain.js';
 import TabSwitcher from './TabSwitcher.js';
 import RadialOverview from './RadialOverview.js';
 import AutonomyMain from './AutonomyMain.js';
+import InitialPreferencesCard from './cards/InitialPreferencesCard.js';
+
 
 
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
@@ -43,6 +45,7 @@ export default class App extends Component {
                             <Route exact path='/level' component={LevelMain} />
                             <Route exact path='/tabs' component={TabSwitcher} />
                             <Route exact path='/stepper' component={AutonomyMain} />
+                            <Route exact path='/permissions' component={InitialPreferencesCard} />
                         </Switch>
                     </div>
                 </MuiThemeProvider>
